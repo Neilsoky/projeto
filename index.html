@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pobrefy Premium</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Pobrefy Premium</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="desenvolvedores.html">Desenvolvedores</a></li>
+                <li><a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">Especial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Colabore para a Playlist mais diversificada do Pobrefy:</h2>
+            <form id="formulario">
+                <label for="nome">Usuário:</label>
+                <input type="text" id="nome" required>
+
+                <label for="musica">Música</label>
+                <input type="text" id="musica" required>
+
+                <label for="artista">Artista/Banda:</label>
+                <input type="text" id="artista" required>
+
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+
+        <section>
+            
+            <table>
+                <h2>Top ∞ - Playlist dos Usuários</h2>
+                <thead>
+                    <tr>
+                        <th onclick="sortTable(0)">Usuário</th>
+                        <th onclick="sortTable(1)">Música</th>
+                        <th onclick="sortTable(2)">Artista/Banda</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela">
+                    <tr>
+                        <td>UmSmokyStan</td>
+                        <td>Past Lives</td>
+                        <td>Børns</td>
+                    </tr>
+                    <tr>
+                        <td>Layrão123</td>
+                        <td>Pink Pony Club</td>
+                        <td>Chappell Roan</td>
+                    </tr>
+                    <tr>
+                        <td>maiormonster2009</td>
+                        <td>Washing Machine Heart</td>
+                        <td>Mitski</td>
+                    </tr>
+                    <tr>
+                        <td>boysloverzme</td>
+                        <td>obsessed</td>
+                        <td>Olivia Rodrigo</td>
+                    </tr>
+                    <tr>
+                        <td>scariestlover</td>
+                        <td>Scary Love</td>
+                        <td>The Neighbourhood</td>
+                    </tr>
+                    <tr>
+                        <td>Hora Cartoon</td>
+                        <td>Love Like You</td>
+                        <td>Rebecca Sugar</td>
+                    </tr>
+                    <tr>
+                        <td>Girl_in_Red3000</td>
+                        <td>Casual</td>
+                        <td>Chappell Roan</td>
+                    </tr>
+                    <tr>
+                        <td>TonTon Fã Clube</td>
+                        <td>Apocalypse</td>
+                        <td>Cigarettes After Sex</td>
+                    </tr>
+                    <tr>
+                        <td>baixinho2007</td>
+                        <td>Like Him (feat. Lola Young)</td>
+                        <td>Tyler, The Creator</td>
+                    </tr>
+                    <tr>
+                        <td>Chapéu da Chappell Roan</td>
+                        <td>Good Luck, Babe!</td>
+                        <td>Chappell Roan</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>IFRN - Campus Santa Cruz</p>
+        <p>Trabalho da disciplina de Autoria Web</p>
+        <p>Prof. Marcelo Figueiredo Barbosa Júnior</p>
+        <p>José Neilson Santos de Lima e Layra Wallyda Lino Santos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
